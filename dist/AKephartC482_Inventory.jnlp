@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AKephartC482_Inventory.jnlp">
+  <information>
+    <title>AKephartC482_Inventory</title>
+    <vendor>Peaces</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AKephartC482_Inventory.jar" size="27167" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="AKephartC482_Inventory" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="akephartc482_inventory.AKephartC482_Inventory"  name="AKephartC482_Inventory" />
+  <update check="always"/>
+</jnlp>
